@@ -205,6 +205,10 @@
                 <ul>
                     <li><a href="https://github.com/tealtadpole/tt-javascript-bezier-animation">https://github.com/tealtadpole/tt-javascript-bezier-animation</a></li>
                 </ul>
+                <h3>Live example:</h3>
+                <ul>
+                    <li><a href="https://web.tealtadpole.me/tt-javascript-bezier-animation/">https://web.tealtadpole.me/tt-javascript-bezier-animation/</a></li>
+                </ul>
                 <h3>Original blog article:</h3>
                 <ul>
                     <li>
@@ -337,7 +341,7 @@
                     <li>This library can draw any number of bezier degree, not limited only to cubic bezier</li>
                 </ul>
                 <h3>Bezier Functions</h3>
-                <p>Here are my bezier functions </p>
+                <p>Here are my bezier functions (I used <a href="https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm">de Casteljau's algorithm</a>) </p>
                 <pre class="pre-code">
 
     static bezier(degree, points, t) {
@@ -370,7 +374,6 @@
                 }
             }
             function startAnimation(id) {
-                console.log('start', id)
                 ttBezier.start(`animation${id}`)
             }
             function stopAnimation(id) {
