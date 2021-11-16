@@ -6,7 +6,7 @@ You can view live example here:
 https://web.tealtadpole.me/tt-javascript-bezier-animation/
 
 ## Blog article:
-https://tealtadpole.me/index.php/2021/11/15/javascript-bezier-animation-library
+https://tealtadpole.me/index.php/2021/11/16/javascript-bezier-animation-library
 
 ## Usage:
 1. Import the library/class
